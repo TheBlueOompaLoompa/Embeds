@@ -1,5 +1,12 @@
 <html>
 <body>
-<script>alert("test");</script>
+  <h1 id="changing text"></h1>
+  <script>
+    function dyn(){
+      var text = document.getElementById("changing text");
+      text.innerHTML = "Dynamic Test";
+    }
+  </script>
+  <button onclick="dyn();">Dynamic test</button>
 </body>
 </html>
